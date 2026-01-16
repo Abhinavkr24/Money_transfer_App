@@ -33,7 +33,7 @@ function SignUp() {
       <Button name ="SignUp" onClick = {async ()=>{
         const response = await axios({
         method: 'post',
-        url: 'http://localhost:4000/api/v1/user/signup',
+        url: 'https://money-transfer-app-1-25in.onrender.com/api/v1/user/signup',
         data: {
         userName,
         lastName,

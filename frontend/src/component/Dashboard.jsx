@@ -40,7 +40,7 @@ function Dashboard() {
   const fetchBalance = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:4000/api/v1/account/balance",
+        "https://money-transfer-app-1-25in.onrender.com/api/v1/account/balance",
         {
           headers: {
             'Authorization': `Bearer ${BEARER_TOKEN}`

@@ -36,7 +36,7 @@ function MoneyTransfer() {
       onClick={async()=> {
        try {
       const response = await axios.put(
-        "http://localhost:4000/api/v1/account/transfer",
+        "https://money-transfer-app-1-25in.onrender.com/api/v1/account/transfer",
         {
           accountId:userId,
           balance:amountToTransfer
