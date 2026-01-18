@@ -60,7 +60,7 @@ function Dashboard() {
   
 
   useEffect(()=>{
-    axios.get('http://localhost:4000/api/v1/user/bulk?filter='+filter)
+    axios.get('https://money-transfer-app-1-25in.onrender.com/api/v1/user/bulk?filter='+filter)
     .then(response=>{
       setUsers(response.data.user)
     })

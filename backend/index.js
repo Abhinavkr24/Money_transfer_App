@@ -22,7 +22,7 @@ app.use(express.json());
 app.use("/api/v1",router1);
 
 
-const uri = "mongodb+srv://24kabhinav:2411abhi@cluster0.upp4yux.mongodb.net/";
+
 
 mongoose.connect(process.env.DB_CONNECTION_STRING)
   .then(() => console.log('Connected to MongoDB Atlas'))
