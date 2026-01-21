@@ -14,7 +14,7 @@ function SignIn() {
   const navigate = useNavigate();
 
   function handleClick(e){
-    navigate('/');
+    navigate('/signup');
   }
   return (
     <div className = "h-screen w-screen place-content-center">
